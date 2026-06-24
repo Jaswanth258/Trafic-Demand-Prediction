@@ -46,7 +46,7 @@ graph TD
     H2 --> I2[XGBoost Predictions]
     I1 --> J[15 / 85 Ensemble Blend]
     I2 --> J
-    J --> K[Clip to [0,1]]
+    J --> K["Clip to [0, 1]"]
     K --> L[Submission CSV]
 ```
 
